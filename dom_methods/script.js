@@ -1,13 +1,1 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body{
-    font-family: Arial, sans-serif;
-    bg-color: #FEF9E1
-}
-
---main-color: #3498db;
---secondary-color: #2ecc71;
