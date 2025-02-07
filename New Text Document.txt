@@ -14,13 +14,11 @@ let index = 0;
 function add() {
     index += 1;
     let table = document.querySelector(".table");
-    let row = document.querySelector(".row");
+    let row = table.querySelector(".row");
     let new_row = row.cloneNode(true);
     let td1 = document.createElement("td");
     let td2 = document.createElement("td");
     td1.innerHTML = `<p>${names[index]}</p>`;
     td1.innerHTML = `<p>${sal[index]}</p>`;
-    row.append(td1);
-    row.append(td2);
-    table.append(new_row);
+
 }
